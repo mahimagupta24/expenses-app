@@ -4,7 +4,7 @@ import './ExpenseFilter.css';
 
 const ExpenseFilter = (props) => {
     const dropdownChangeHandler=(e)=>{
-props.onFilterChange(e.target.value)
+ props.onFilterChange(e.target.value)
     }
   return (
     <div className='expenses-filter'>
